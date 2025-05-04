@@ -30,3 +30,6 @@ For this setup
   - 2x 1Gbps network will be used for management and VM traffic
   - 2x 10Gbps network will be used for storage synchronization
 Go to New >> Network and create needed networks
+![image](https://github.com/user-attachments/assets/54319370-7c46-4cd8-b0e7-23eb9aad53e6)
+Each host should have 02 networks with necessary IPs as below
+![image](https://github.com/user-attachments/assets/4f39a16b-6a6d-4a8b-8e7d-145d1bd33932)
