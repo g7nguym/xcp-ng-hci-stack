@@ -33,7 +33,11 @@ Go to New >> Network and create needed networks
 ![image](https://github.com/user-attachments/assets/54319370-7c46-4cd8-b0e7-23eb9aad53e6)
 Each host should have 02 networks with necessary IPs as below
 ![image](https://github.com/user-attachments/assets/4f39a16b-6a6d-4a8b-8e7d-145d1bd33932)
-* Create XOSTOR (Linstor) Storage  
+* Create XOSTOR (Linstor) Storage
+Run `pvcreate /dev/sdx` on the disk device that will be used for shared storage  
 Go to XOSTOR and create XOSTOR storage.
 At the time of this writing, XOSTOR only supports ThinLVM Pool. `/dev/sdb` will be used on the nodes to provide shared storage and `sync-net` is used for storage synchronization between the nodes.
 ![image](https://github.com/user-attachments/assets/ca1cc3a4-7b17-4927-b74f-a415e91bd5bc)
+After a few minutes, shared storage is created
+![image](https://github.com/user-attachments/assets/9b479f86-5722-467a-a799-2dc582376b9e)
+
