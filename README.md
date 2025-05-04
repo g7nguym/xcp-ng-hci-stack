@@ -40,4 +40,6 @@ At the time of this writing, XOSTOR only supports ThinLVM Pool. `/dev/sdb` will 
 ![image](https://github.com/user-attachments/assets/ca1cc3a4-7b17-4927-b74f-a415e91bd5bc)
 After a few minutes, shared storage is created
 ![image](https://github.com/user-attachments/assets/9b479f86-5722-467a-a799-2dc582376b9e)
-
+Enable HA on the pool
+![image](https://github.com/user-attachments/assets/ce3bc0bc-f2c9-45d1-9f68-e2b4c91b5725)
+At this stage, we have a 03 nodes HA cluster.
